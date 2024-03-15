@@ -13,7 +13,7 @@ Checkpoint 1 de microsserviços docker
 
 ##### Clone do projeto
 ```
-git clone https://github.com/JulioCesarLB/fiap-checkpoint1
+git clone https://github.com/enzonishi/fiap-checkpoint1.git
 ```
 
 ## Execução
@@ -21,12 +21,12 @@ git clone https://github.com/JulioCesarLB/fiap-checkpoint1
 #### Docker
 ###### Execução da imagem pelo docker hub
 ```
-docker run -p 8080:8080 -e PROFILE=prd juliocesarlb/fiap-checkpoint1
-docker run -p 8080:8080 -e PROFILE=dev juliocesarlb/fiap-checkpoint1
-docker run -p 8080:8080 -e PROFILE=stg juliocesarlb/fiap-checkpoint1
+docker run -p 8080:8080 -e PROFILE=prd enzonishi/fiap-checkpoint1
+docker run -p 8080:8080 -e PROFILE=dev enzonishi/fiap-checkpoint1
+docker run -p 8080:8080 -e PROFILE=stg enzonishi/fiap-checkpoint1
 ```
 
 
 ## Contatos
 
-- JulioCesarLB - julio.lifeintech@gmail.com
+- enzonishi - enzo.onishi@gmail.com
